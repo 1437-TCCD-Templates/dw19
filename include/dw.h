@@ -11,8 +11,8 @@ public:
   int get_size() const;
 
 private:
-  int *counts_;
-  int size_;
+  int *m_counts;
+  int m_size;
 };
 
 #endif
